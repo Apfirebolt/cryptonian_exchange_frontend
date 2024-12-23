@@ -1,13 +1,14 @@
 <template>
-    <p class="text-red-300 bg-slate-300">
-        The Home Page
+  <NuxtLayout name="default">
+    <p>
+      Inside the Main Page
     </p>
-  </template>
-  <script setup>
-  
-  
-  onMounted(() => {
-    console.log('Mounted ..')
-  });
-  </script>
-  
+  </NuxtLayout>
+</template>
+<script setup>
+definePageMeta({
+  layout: false,
+});
+
+//const
+</script>
